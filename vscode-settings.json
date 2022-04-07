@@ -1,0 +1,67 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "react",
+  "terminal.integrated.fontFamily": "Consolas NF",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.suggestSelection": "first",
+  "editor.largeFileOptimizations": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.host": "0.0.0.0",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "prettier.printWidth": 100,
+  "prettier.arrowParens": "avoid",
+  "git.autofetch": true,
+  "discord.detailsEditing": "Editing a {Lang} file",
+  "discord.lowerDetailsEditing": "Happy coding day!",
+  "discord.detailsDebugging": "Debugging a {Lang} file",
+  "discord.lowerDetailsDebugging": "(╯°□°)╯︵ ┻━┻",
+  "discord.removeRemoteRepository": true,
+  "redhat.telemetry.enabled": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "settingsSync.ignoredSettings": [
+    "-python.defaultInterpreterPath",
+    "-python.formatting.blackPath",
+    "apklab.apkSignerPath",
+    "apklab.apktoolPath",
+    "apklab.jadxDirPath",
+    "-C_Cpp.default.compilerPath",
+    "github.copilot.enable"
+  ],
+  "VSCodeCounter.exclude": [
+    "**/.gitignore",
+    "**/.vscode/**",
+    "**/node_modules/**",
+    "**/__pycache__/**",
+    "**/.env/**",
+    "**/build/**",
+    "**/package**.json"
+  ],
+  // language settings
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["-m", "black", "--line-length", "88"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.tabSize": 4
+  },
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  }
+}
