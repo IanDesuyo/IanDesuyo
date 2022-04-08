@@ -31,15 +31,7 @@
     "**/.settings": true,
     "**/.factorypath": true
   },
-  "settingsSync.ignoredSettings": [
-    "-python.defaultInterpreterPath",
-    "-python.formatting.blackPath",
-    "apklab.apkSignerPath",
-    "apklab.apktoolPath",
-    "apklab.jadxDirPath",
-    "-C_Cpp.default.compilerPath",
-    "github.copilot.enable"
-  ],
+  "settingsSync.ignoredSettings": ["github.copilot.enable"],
   "VSCodeCounter.exclude": [
     "**/.gitignore",
     "**/.vscode/**",
