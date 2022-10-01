@@ -33,6 +33,9 @@
         },
         {
           "PackageIdentifier": "File-New-Project.EarTrumpet"
+        },
+        {
+          "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
         }
       ],
       "SourceDetails": {
