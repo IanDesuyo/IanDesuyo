@@ -20,9 +20,11 @@
           "powerline_symbol": "\ue0b0",
           "foreground": "#ffffff",
           "background": "#256c9d",
-          "template": "{{ .Path }} ",
+          "template": "\ue5fe {{ .Path }} ",
           "properties": {
-            "style": "full"
+            "style": "full",
+            "mapped_locations": {
+            }
           }
         },
         {
@@ -93,6 +95,23 @@
           "properties": {
             "time_format": "Monday at 3:04 PM"
           }
+        },
+        {
+          "type": "battery",
+          "style": "diamond",
+          "leading_diamond": " <#757575>|</>",
+          "foreground": "#97a7c6",
+          "foreground_templates": [
+            "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
+            "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
+            "{{if eq \"Full\" .State.String}}#4caf50{{end}}"
+          ],
+          "properties": {
+            "charged_icon": "\uf583 ",
+            "charging_icon": "\uf583 ",
+            "discharging_icon": "\uf57d "
+          },
+          "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}%{{ end }}{{ .Error }}"
         }
       ]
     },
