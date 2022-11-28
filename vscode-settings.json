@@ -10,17 +10,20 @@
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": false,
   "editor.tabSize": 2,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.external.windowsExec": "wt",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.runInTerminal": true,
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.host": "0.0.0.0",
   "liveServer.settings.donotShowInfoMsg": true,
-  "prettier.printWidth": 100,
+  "files.eol": "\n",
+  "prettier.endOfLine": "lf",
+  "prettier.printWidth": 120,
   "prettier.arrowParens": "avoid",
   "git.autofetch": true,
   "discord.detailsEditing": "Editing a {Lang} file",
-  "discord.lowerDetailsEditing": "Happy coding day!",
+  "discord.lowerDetailsEditing": "👻 Where is my liver?",
   "discord.detailsDebugging": "Debugging a {Lang} file",
   "discord.lowerDetailsDebugging": "(╯°□°)╯︵ ┻━┻",
   "discord.removeRemoteRepository": true,
@@ -39,12 +42,18 @@
     "**/__pycache__/**",
     "**/.env/**",
     "**/build/**",
+    "**/dist/**",
     "**/package**.json"
   ],
+  "VSCodeCounter.outputAsCSV": false,
+  "VSCodeCounter.outputAsText": false,
   // language settings
+  "code-runner.executorMap": {
+    "java": "cd $dir && javac -encoding utf-8 $fileName && java $fileNameWithoutExt"
+  },
   "python.languageServer": "Pylance",
   "python.formatting.provider": "black",
-  "python.formatting.blackArgs": ["-m", "black", "--line-length", "88"],
+  "python.formatting.blackArgs": ["-m", "black", "--line-length", "120"],
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.tabSize": 4
@@ -56,5 +65,17 @@
   },
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
   }
 }
