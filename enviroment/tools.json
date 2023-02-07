@@ -42,6 +42,9 @@
         },
         {
           "PackageIdentifier": "MongoDB.Shell"
+        },
+        {
+          "PackageIdentifier": "Gyan.FFmpeg"
         }
       ],
       "SourceDetails": {
