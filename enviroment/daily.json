@@ -23,9 +23,6 @@
           "PackageIdentifier": "Microsoft.PowerToys"
         },
         {
-          "PackageIdentifier": "Nvidia.GeForceExperience"
-        },
-        {
           "PackageIdentifier": "c0re100.qBittorrent-Enhanced-Edition"
         },
         {
@@ -35,7 +32,7 @@
           "PackageIdentifier": "File-New-Project.EarTrumpet"
         },
         {
-          "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
+          "PackageIdentifier": "th-ch.YouTubeMusic"
         }
       ],
       "SourceDetails": {
