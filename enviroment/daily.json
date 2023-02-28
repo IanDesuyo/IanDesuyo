@@ -33,6 +33,9 @@
         },
         {
           "PackageIdentifier": "th-ch.YouTubeMusic"
+        },
+        {
+          "PackageIdentifier": "valinet.ExplorerPatcher"
         }
       ],
       "SourceDetails": {
