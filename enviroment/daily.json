@@ -36,6 +36,9 @@
         },
         {
           "PackageIdentifier": "valinet.ExplorerPatcher"
+        },
+        {
+          "PackageIdentifier": "Cloudflare.Warp"
         }
       ],
       "SourceDetails": {
