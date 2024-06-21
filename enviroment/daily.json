@@ -39,15 +39,42 @@
         },
         {
           "PackageIdentifier": "Cloudflare.Warp"
+        },
+        {
+          "PackageIdentifier": "Cloudflare.cloudflared"
+        },
+        {
+          "PackageIdentifier": "Sandboxie.Plus"
+        },
+        {
+          "PackageIdentifier": "VideoLAN.VLC"
+        },
+        {
+          "PackageIdentifier": "Google.QuickShare"
+        },
+        {
+          "PackageIdentifier": "Yubico.Authenticator"
+        },
+        {
+          "PackageIdentifier": "dotPDN.PaintDotNet"
+        },
+        {
+          "PackageIdentifier": "Logitech.GHUB"
+        },
+        {
+          "PackageIdentifier": "Logitech.OptionsPlus"
+        },
+        {
+          "PackageIdentifier": "Telegram.TelegramDesktop"
         }
       ],
       "SourceDetails": {
-        "Argument": "https://winget.azureedge.net/cache",
+        "Argument": "https://cdn.winget.microsoft.com/cache",
         "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
         "Name": "winget",
         "Type": "Microsoft.PreIndexed.Package"
       }
     }
   ],
-  "WinGetVersion": "1.1.13405"
+  "WinGetVersion": "1.7.11261"
 }

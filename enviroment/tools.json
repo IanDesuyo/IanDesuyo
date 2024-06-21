@@ -5,7 +5,10 @@
     {
       "Packages": [
         {
-          "PackageIdentifier": "Canonical.Ubuntu"
+          "PackageIdentifier": "Microsoft.WSL"
+        },
+        {
+          "PackageIdentifier": "Canonical.Ubuntu.2204"
         },
         {
           "PackageIdentifier": "Docker.DockerDesktop"
@@ -17,6 +20,9 @@
           "PackageIdentifier": "Git.Git"
         },
         {
+          "PackageIdentifier": "Microsoft.PowerShell"
+        },
+        {
           "PackageIdentifier": "Microsoft.WindowsTerminal"
         },
         {
@@ -26,13 +32,16 @@
           "PackageIdentifier": "Insomnia.Insomnia"
         },
         {
-          "PackageIdentifier": "Axosoft.GitKraken"
-        },
-        {
           "PackageIdentifier": "DBBrowserForSQLite.DBBrowserForSQLite"
         },
         {
-          "PackageIdentifier": "Python.Python.3"
+          "PackageIdentifier": "Python.Python.3.12"
+        },
+        {
+          "PackageIdentifier": "Python.Python.3.6"
+        },
+        {
+          "PackageIdentifier": "Python.Launcher"
         },
         {
           "PackageIdentifier": "OpenJS.NodeJS.LTS"
@@ -41,19 +50,16 @@
           "PackageIdentifier": "Microsoft.VisualStudioCode"
         },
         {
-          "PackageIdentifier": "MongoDB.Shell"
-        },
-        {
           "PackageIdentifier": "Gyan.FFmpeg"
         }
       ],
       "SourceDetails": {
-        "Argument": "https://winget.azureedge.net/cache",
+        "Argument": "https://cdn.winget.microsoft.com/cache",
         "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
         "Name": "winget",
         "Type": "Microsoft.PreIndexed.Package"
       }
     }
   ],
-  "WinGetVersion": "1.1.13405"
+  "WinGetVersion": "1.7.11261"
 }
