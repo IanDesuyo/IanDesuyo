@@ -30,15 +30,18 @@ git config --global user.email "59338745+IanDesuyo@users.noreply.github.com"
 # Ref: https://ohmyposh.dev/docs/installation/prompt
 oh-my-posh font install # CascadiaCode
 
-if (-not (Test-Path -Path $PROFILE)) {
-    New-Item -Path $PROFILE -ItemType File
+$pwsh_profile = "$env:USERPROFILE\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
+if (-not (Test-Path -Path $pwsh_profile)) {
+    New-Item -Path $pwsh_profile -ItemType File
 }
-echo "oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/IanDesuyo/IanDesuyo/master/enviroment/ian.omp.json' | Invoke-Expression" > $PROFILE
-. $PROFILE
+echo "oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/IanDesuyo/IanDesuyo/master/enviroment/ian.omp.json' | Invoke-Expression" > $pwsh_profile
 
 # Windows Terminal
-Copy-Item -Path ".\wt-settings.json" -Destination "$($env:LOCALAPPDATA)\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
+$wt_setting = "$($env:LOCALAPPDATA)\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
+if (-not (Test-Path -Path $wt_setting)) {
+    New-Item -Path $wt_setting -ItemType File
+}
+Copy-Item -Path ".\wt-settings.json" -Destination $wt_setting
 
 # Vencord
 iwr "https://raw.githubusercontent.com/Vencord/Installer/main/install.ps1" -UseBasicParsing | iex
-```

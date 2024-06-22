@@ -45,7 +45,7 @@
         "hidden": false,
         "name": "PowerShell",
         "source": "Windows.Terminal.PowershellCore",
-        "commandline": "pwsh.exe -NoLogo"
+        "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -NoLogo"
       },
       {
         "commandline": "%SystemRoot%\\System32\\cmd.exe",
